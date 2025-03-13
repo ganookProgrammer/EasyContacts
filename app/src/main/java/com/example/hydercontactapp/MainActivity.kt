@@ -37,26 +37,26 @@ class MainActivity : ComponentActivity() {
 }
 
 
-@Composable
-fun GetPermission() {
-    val permission = android.Manifest.permission.CALL_PHONE
-
-    var isGranted = remember {
-        mutableStateOf(false)
-    }
-
-    val launcher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission(),
-        onResult = {result ->
-            isGranted.value =  result
-        }
-    )
-
-    if (isGranted.value){
-        Text(text = "Permission Granted")
-    }else{
-        Button(onClick ={launcher.launch(permission)} ) { Text(text = "Permission") }
-    }
-
-
-}
+//@Composable
+//fun GetPermission() {
+//    val permission = android.Manifest.permission.CALL_PHONE
+//
+//    var isGranted = remember {
+//        mutableStateOf(false)
+//    }
+//
+//    val launcher = rememberLauncherForActivityResult(
+//        contract = ActivityResultContracts.RequestPermission(),
+//        onResult = {result ->
+//            isGranted.value =  result
+//        }
+//    )
+//
+//    if (isGranted.value){
+//        Text(text = "Permission Granted")
+//    }else{
+//        Button(onClick ={launcher.launch(permission)} ) { Text(text = "Permission") }
+//    }
+//
+//
+//}
