@@ -16,8 +16,11 @@ class ContactRepository @Inject constructor(private val database : ContactDataba
         database.contactDao().deleteContact(contact)
     }
 
-    fun getAllContacts() : Flow<List<Contact>>{
-        return database.contactDao().getAllContact()
+//    fun getAllContacts() : Flow<List<Contact>>{
+//        return database.contactDao().getAllContact()
+
+    fun getAllContactsOrderedByName() : Flow<List<Contact>>{
+        return  database.contactDao().getAllContactOrderedByName()
     }
 
 
