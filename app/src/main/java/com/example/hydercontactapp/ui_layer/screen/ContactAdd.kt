@@ -34,6 +34,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -104,7 +105,7 @@ fun AddEditScreenUI( navController: NavController, state : ContactState,
                 .padding(top = 20.dp),
                 contentAlignment = Alignment.Center) {
                 if (state.image.value == null){
-                    Image(painter = painterResource(id = R.drawable.ic_launcher_background), contentDescription = null
+                    Image(painter = painterResource(id = R.drawable.add_user), contentDescription = null
                         , modifier = Modifier
                             .size(90.dp, 90.dp)
                             .clip(CircleShape)
@@ -122,7 +123,8 @@ fun AddEditScreenUI( navController: NavController, state : ContactState,
                             .clip(CircleShape)
                             .clickable {
                                 launcher.launch("image/*")
-                            })
+                            },
+                        contentScale = ContentScale.Crop)
                 }
 
             }
