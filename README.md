@@ -10,7 +10,7 @@
 - ✏️ Edit existing contacts
 - 🗑️ Delete contacts
 - 👀 View all saved contacts
-- 🔄 Real-time updates using Kotlin Flows
+- 🔄 Kotlin Flows
 - 📐 MVVM architecture for clean and maintainable code
 
 ---
