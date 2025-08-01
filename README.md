@@ -23,7 +23,6 @@
 | **Jetpack Compose**| Modern declarative UI framework    |
 | **Room Database**  | Local database for storing contacts|
 | **Dagger Hilt**    | Dependency Injection               |
-| **Kotlin Flows**   | Reactive streams for Live Data     |
 | **MVVM Pattern**   | Separation of concerns and UI logic|
 
 ---
