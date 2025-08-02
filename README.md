@@ -48,6 +48,15 @@ The app follows the **MVVM (Model - ViewModel - View)** architecture for better 
 </table>
 
 
-### ✏️ Edit Contact  
-<img src="assets/edit_contact.jpg" width="300" alt="Edit Contact Screen"/>
+
+<table>
+  <tr>
+    <th>✏️ Edit Contact</th>
+    <th>🏠 Home Screen </th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/edit_contact.jpg" width="300" alt="Edit Screen"/></td>
+    <td align="center"><img src="assets/edit_home.jpg" width="300" alt="Home Screen"/></td>
+  </tr>
+</table>
 
