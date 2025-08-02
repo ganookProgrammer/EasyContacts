@@ -31,3 +31,16 @@
 
 The app follows the **MVVM (Model - ViewModel - View)** architecture for better testability and separation of concerns.
 
+---
+
+## 📷 Screenshots
+
+### 🏠 Home Screen  
+<img src="assets/home_screen.png" width="300" alt="Home Screen"/>
+
+### ➕ Add Contact  
+<img src="assets/add_contact.png" width="300" alt="Add Contact Screen"/>
+
+### ✏️ Edit Contact  
+<img src="assets/edit_contact.png" width="300" alt="Edit Contact Screen"/>
+
