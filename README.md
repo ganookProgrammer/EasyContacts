@@ -35,7 +35,6 @@ The app follows the **MVVM (Model - ViewModel - View)** architecture for better 
 
 ## 📷 Screenshots
 
-## 📷 Screenshots
 
 <table>
   <tr>
