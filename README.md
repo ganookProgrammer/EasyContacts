@@ -37,8 +37,8 @@ The app follows the **MVVM (Model - ViewModel - View)** architecture for better 
 
 ### 🏠 Home Screen  
 <p align="center">
-  <img src="assets/home_screen.png" width="300" alt="Home Screen"/>
-  <img src="assets/add_contact.png" width="300" alt="Add Contact Screen"/>
+  <img src="assets/home_screen.jpg" width="300" alt="Home Screen"/>
+  <img src="assets/add_contact.jpg" width="300" alt="Add Contact Screen"/>
 </p>
 
 ### ✏️ Edit Contact  
