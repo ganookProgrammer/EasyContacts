@@ -35,11 +35,19 @@ The app follows the **MVVM (Model - ViewModel - View)** architecture for better 
 
 ## 📷 Screenshots
 
-### 🏠 Home Screen  
-<p align="center">
-  <img src="assets/home_screen.jpg" width="300" alt="Home Screen"/>
-  <img src="assets/add_contact.jpg" width="300" alt="Add Contact Screen"/>
-</p>
+## 📷 Screenshots
+
+<table>
+  <tr>
+    <th>🏠 Home Screen</th>
+    <th>➕ Add Contact</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/home_screen.jpg" width="300" alt="Home Screen"/></td>
+    <td align="center"><img src="assets/add_contact.jpg" width="300" alt="Add Contact Screen"/></td>
+  </tr>
+</table>
+
 
 ### ✏️ Edit Contact  
 <img src="assets/edit_contact.jpg" width="300" alt="Edit Contact Screen"/>
