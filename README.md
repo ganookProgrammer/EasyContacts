@@ -38,12 +38,12 @@ The app follows the **MVVM (Model - ViewModel - View)** architecture for better 
 
 <table>
   <tr>
-    <th>🏠 Home Screen</th>
     <th>➕ Add Contact</th>
+    <th>🏠 Home Screen </th>
   </tr>
   <tr>
-    <td align="center"><img src="assets/home_screen.jpg" width="300" alt="Home Screen"/></td>
     <td align="center"><img src="assets/add_contact.jpg" width="300" alt="Add Contact Screen"/></td>
+    <td align="center"><img src="assets/home_screen.jpg" width="300" alt="Home Screen"/></td>
   </tr>
 </table>
 
